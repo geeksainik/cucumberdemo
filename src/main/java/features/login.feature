@@ -24,4 +24,11 @@ Examples:
  
  | username | password |
  | naveenk  | test@123 |
- | tom      | test12   |
+ 
+ @Tagtest
+ Scenario: This is tag Test
+ Given test method
+  
+ Scenario: This 2nd tag test
+ Given some method
+  

@@ -63,4 +63,15 @@ public class LoginStepDefinition {
 		driver.close();
 	}	
 	
+	@Given("^test method$")
+	public void test_method()
+	{
+		System.out.println("This is tag method1");
+	}
+	
+	@Given("^some method$")
+	public void some_method()
+	{
+		System.out.println("this is tag method2");
+	}
 }

@@ -12,7 +12,9 @@ import org.junit.runner.RunWith;
 		format= {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
 		monochrome=true,
 		strict=false,
-		dryRun=false)
+		dryRun=false,
+		tags= {"@featuretag"}
+		)
       
 public class TestRunner {
 	
